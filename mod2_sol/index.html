@@ -1,9 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hi Coursera</title>
+	<meta charset="utf-8">
+	<title>Assignment-2 Solution</title>
+	<style>
+		*{
+			box-sizing:border-box;
+		}
+		body{            
+			background-color: pink;
+			align-items: center;
+		}
+		#Div1{
+			background-color: orange;
+			text-align: center;
+			width: 70px;
+			height:30px;
+			border: 1px solid black;
+			float: right;
+			padding: 5px;
+			margin-top: -7px;
+			margin-right: -6px;
+		}
+		#Div2{
+			background-color: yellow;
+			text-align:center;
+			/*width: 26%;
+			height: 55%;*/
+			border:1px solid black;
+			padding: 5px;
+			margin-top: 20px;
+			margin-left: 40px solid black;
+
+
+		}
+		h1{
+			 margin-bottom: 30px;
+			text-align: center;
+		}
+	.row,#Div2{
+			float: left;
+			margin-right: 40px;
+			margin-left: 40px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+			align-items: center;
+			height:150%;
+			width:25%;
+		}
+			 
+		@media(min-width:992px){
+	.col-lg-1, .col-lg-2, .col-lg-3, {
+		float:left;
+		border: 1px solid black;
+		}
+		.cl-lg-1,.cl-lg-2,.col-lg-3{
+			width: 30%;
+		}
+		 
+}
+@media (min-width:768px)and (max-width:991px){
+	.col-md-1, .col-md-2, .col-md-3 {
+	 	float:left;
+		border: 1px solid black;
+		}
+		.cl-md-1,.col-lg-2{
+			width: 50%;
+		}
+		.cl-md-2{
+			width: 100%;
+		}
+		 
+	}
+	@media (max-width:767px){
+	.col-ml-1, .col-ml-2, .col-ml-3{
+	 	float:left;
+		border: 1px solid black;
+		}
+		.cl-ml-1{
+			width: 100%;
+		}
+		.cl-ml-2{
+			width: 100%;
+		}
+		.col-ml-3{
+			width:100%;
+		}
+		 
+	}
+	</style>
+		}
+		
 </head>
 <body>
-<h1> I am Dinesh Here .....</h1>
+<h1>...Our Menu...</h1>
+ 
+	<div id="Div2",class="row col-lg-1 col-md-1 col-ml-1" >
+		<div id="Div1",class="row col-lg-1 col-md-1 col-ml-1">Apple</div>
+		<p id="p1",class="row col-lg-1 col-md-1 col-ml-1">Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Four technology companies, alongside Amazon, Google, and Microsoft.</p>
+	</div>
+	 
+	<div id="Div2",class="row col-lg-2 col-md-2 col-ml-2">
+		<div id="Div1",class="row col-lg-2 col-md-2 col-ml-2">Samsung</div>
+		<p id="p1",class="row col-lg-2 col-md-2 col-ml-2"> Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Four technology companies, alongside Amazon, Google, and Microsoft.</p>
+	</div>
+	 
+	<div id="Div2",class="row col-lg-3 col-md-3 col-ml-3"><div id="Div1",class="row col-lg-3 col-md-3 col-ml-3">Nokia</div>
+		<p id="p1",class="row col-lg-3 col-md-3 col-ml-3"> Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Four technology companies, alongside Amazon, Google, and Microsoft.</p>
+	</div>
+
 </body>
 </html>
