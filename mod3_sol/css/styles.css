@@ -54,7 +54,7 @@
 }
  
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid black;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -62,7 +62,7 @@
   height:100%;
 }
 .text-center #p1{
-	color: maroon;
+	color: green;
 	font-size: 15px;
 }
 
@@ -91,4 +91,8 @@
  	color:brown;
  	text-shadow: 1px;
  	height:1.15em;
+ }
+ li{
+ 	margin:2px solid black;
+ 	border:2px;
  }
