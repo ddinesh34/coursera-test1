@@ -84,3 +84,11 @@
 		padding:10px;
 		margin :10px;
  }
+#some{
+ 	color:white;
+ }
+ #p1{
+ 	color:brown;
+ 	text-shadow: 1px;
+ 	height:1.15em;
+ }
